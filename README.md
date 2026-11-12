@@ -1,6 +1,6 @@
 # 养石头：硬撑
 
-## [🪨 点击这里，领养你的石头](https://chixu-614.github.io/-/)
+## [🪨 点击这里，领养你的石头](https://chixu-614.github.io/pet-rock/)
 
 **无用宠物研究所 · 第 001 号**
 
