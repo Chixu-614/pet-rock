@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>养石头：硬撑</title><link rel="stylesheet" href="css/style.css?v=reply8"></head><body><main>
+<header><div class="header-title"><small>无用宠物研究所 · 第 001 号</small><h1>养石头：硬撑<span class="author-watermark" aria-label="作者：澜澜">澜澜</span></h1></div><div class="header-controls"><button class="pill sound-toggle" data-action="sound" id="soundToggle" aria-pressed="true" type="button">音效：开</button><div class="pill">● 很难养死</div></div></header>
+<div class="speech" id="speech" role="status" aria-live="polite">我是石头。你有什么事吗。</div>
+<div class="yard"><div class="nameplate" id="nameplate"></div><div id="scene"></div><div id="mood" aria-hidden="true"></div><div class="scene-tools"><span id="sceneHint">拖动石头翻转 · 空白处滑动</span><button class="link" data-action="reset"><span data-icon="reset"></span>转回来</button></div></div>
+<div class="stats"><span id="days">相识第 1 天</span><span id="touches">被摸 0 次</span><span>生命体征：不详</span></div>
+<div class="actions"><button data-action="pet"><span data-icon="pet"></span>摸摸</button><button data-action="feed"><span data-icon="feed"></span>喂饭</button><button data-action="walk"><span data-icon="walk"></span>带它散步</button><button data-action="bed"><span data-icon="bed"></span>随机物品</button><button data-action="friend"><span data-icon="friend"></span>朋友来串门</button><button data-action="name"><span data-icon="name"></span>起个名字</button></div>
+<button class="status" data-action="mental"><span data-icon="mental"></span>查看精神状态</button>
+<div class="section"><strong style="font-size:14px">饲养事故记录</strong><button class="link" data-action="achievements">查看成就</button></div><div class="log-controls"><button class="link" id="toggleLogs" aria-expanded="false">展开记录</button><button class="link" id="clearLogs">清空记录</button></div><div class="log" id="log" aria-live="polite"></div>
+<div class="footer">不用签到，不会饿死，没有离线惩罚。<br>进度仅保存在当前浏览器。它不要求你成为更好的人。<br><button class="link" data-action="export">导出存档</button> · <button class="link" data-action="import">导入存档</button></div>
+<input type="file" id="importFile" accept="application/json,.json" hidden>
+</main><dialog id="modal"><h2 id="modalTitle"></h2><div id="modalBody"></div><button id="dismiss">知道了（没用的知识增加了）</button></dialog>
+<script src="vendor/three.min.js"></script><script src="js/icons.js"></script><script src="js/store.js"></script><script src="js/scene.js?v=reply8"></script><script src="js/dialogue.js"></script><script src="js/feedback.js?v=reply8"></script><script src="js/game.js?v=reply8"></script></body></html>
