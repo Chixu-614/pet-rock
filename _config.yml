@@ -1,0 +1,6 @@
+# GitHub Pages deployment exclusions; source files remain in the repository.
+# Keep vendor/THREE-LICENSE.txt in the published site.
+# This is NOT access control: files in a public repository remain public.
+exclude:
+  - README.md
+  - docs
